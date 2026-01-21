@@ -1,0 +1,108 @@
+/**
+ * ROFI Sidebar Theme - NieR:Automata Edition
+ */
+* {
+    // Основные цвета из палитры NieR:Automata
+    background-color:   transparent;
+    text-color:         #957e72; /* foreground */
+
+    // Цветовые переменные
+    dark:               #3f352f; /* gray-dark - тёмный фон */
+    lightbg:            #eeeeee; /* background - светлый фон */
+    accent:             #c1afa0; /* primary - основной бежевый акцент */
+    accent-light:       #c1afa0;
+    success:            #27ae60;
+    warning:            #f39c12;
+    alert:              #e74c3c; /* Алый акцент */
+}
+
+window {
+    height:             94%;
+    width:              30em;
+    location:           southwest;
+    anchor:             southwest;
+    border:             0px 2px 2px 0px;
+    border-color:       @accent;
+    text-color:         @accent;
+    background-color:   @lightbg; /* Светлый фон окна */
+}
+
+mode-switcher {
+    border:             2px 0px 0px 0px;
+    background-color:   @dark; /* Тёмная панель */
+    padding:            4px;
+    text-color:         @lightbg;
+}
+
+button selected {
+    border-color:       @accent;
+    text-color:         @accent;
+}
+
+inputbar {
+    background-color:   @dark; /* Тёмный фон */
+    text-color:         @accent;
+    padding:            4px;
+    border:             0px 0px 2px 0px;
+    border-color:       @accent;
+}
+
+mainbox {
+    expand:             true;
+    background-color:   @lightbg; /* Светлый фон списка */
+    spacing:            1em;
+}
+
+listview {
+    padding:            0em 0.4em 0em 1em;
+    dynamic:            false;
+    lines:              0;
+}
+
+element-text {
+    background-color:   inherit;
+    text-color:         @text-color; /* Цвет основного текста */
+}
+
+element selected normal {
+    background-color:   @accent;
+    text-color:         @dark;
+}
+
+element normal active {
+    text-color:         @accent;
+}
+
+element normal urgent {
+    text-color:         @alert;
+}
+
+element alternate normal {
+    /* Стиль для альтернативных элементов */
+}
+
+element alternate active {
+    text-color:         @accent;
+}
+
+element alternate urgent {
+    text-color:         @alert;
+}
+
+element selected active {
+    background-color:   @accent;
+    text-color:         @dark;
+}
+
+element selected urgent {
+    background-color:   @alert;
+    text-color:         @dark;
+}
+
+error-message {
+    expand:             true;
+    background-color:   @alert;
+    border-color:       darkred;
+    border:             2px;
+    padding:            1em;
+}

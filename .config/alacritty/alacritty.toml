@@ -1,0 +1,12 @@
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+normal.style = "Regular"
+bold.family = "JetBrainsMono Nerd Font"
+bold.style = "Bold"
+italic.family = "JetBrainsMono Nerd Font"
+italic.style = "Italic"
+size = 8
+[general]
+import = [
+	"~/.config/alacritty/alacritty-theme/themes/nier-light.toml"
+]

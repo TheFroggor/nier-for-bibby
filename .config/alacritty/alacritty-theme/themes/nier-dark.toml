@@ -1,0 +1,34 @@
+# ~/.config/alacritty/nier-dark.yml
+# Тёмная тема в стиле NieR=Automata
+
+[colors.primary]
+  # Основные цвета
+    background= '#3f352f'  # Тёмный коричневый фон (gray-dark)
+    foreground= '#c1afa0'  # Светлый бежевый текст (primary)
+
+  # Курсор
+[colors.cursor]
+    text= '#eeeeee'        # Белый текст под курсором
+    cursor= '#c1afa0'      # Бежевый курсор
+
+  # Стандартные цвета (0-7)
+[colors.normal]
+    black=   '#6c584c'     # Тёмно-бежевый (secondary)
+    red=     '#e74c3c'     # Красный для ошибок (alert)
+    green=   '#957e72'     # Основной коричневый (foreground)
+    yellow=  '#c1afa0'     # Бежевый акцент (primary)
+    blue=    '#b8a69a'     # Светло-бежевый
+    magenta= '#9c8c82'     # Серо-бежевый
+    cyan=    '#a8978c'     # Средний бежевый
+    white=   '#d4c9c1'     # Светлый бежевый
+
+  # Яркие цвета (8-15)
+[colors.bright]
+    black=   '#7f6a5e'     # Более светлый тёмно-бежевый
+    red=     '#ff6b5c'     # Яркий красный
+    green=   '#a8978c'     # Светлый бежевый
+    yellow=  '#d4c9c1'     # Очень светлый бежевый
+    blue=    '#ccc0b7'     # Светлый нейтральный
+    magenta= '#c1afa0'     # Основной бежевый
+    cyan=    '#e74c3c'     # Красный акцент
+    white=   '#eeeeee'     # Почти белый (background)
